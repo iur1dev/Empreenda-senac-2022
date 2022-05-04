@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Role easy</title>
+    <title>logado</title>
     <!-- bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -44,7 +44,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-light bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="home.html">
           <img
             src="images/logo.png"
             alt="logo da role easy"
@@ -58,7 +58,7 @@
             > <i class="fa-solid fa-envelope fs-4 mx-4"></i>
             </a
           >
-          <img src="images/perfil_iur1.jpg" class="rounded-circle" style="width: 70px;" alt="foto perfil">
+          <img src="images/perfil_iur1.jpg" class="rounded-circle" style="width: 60px;" alt="foto perfil">
          <a href=""><i class="fa-solid fa-sort-down text-white"></i></a> 
         </div>
       </div>
@@ -66,9 +66,9 @@
     <!-- input -->
     <div class="container-fluid">
       <div class="row">
-        <a class="text-center fw-bold fs-4">
-          <i class="fa-solid fa-location-dot m-1 mt-4"></i>Coloque sua
-          localização</a
+        <span class="text-center fw-bold fs-4">
+          <i class="fa-solid fa-location-dot m-1 mt-4 text-dark text-center fs-4"></i> <a href="" class="text-dark">Coloque sua
+            localização</a></span
         >
       </div>
       <form class="d-flex">
@@ -82,7 +82,7 @@
       </form>
       <!-- carosel -->
       <div
-        style="width: 1000px"
+        style="width: 1100px"
         id="carouselExampleCaptions"
         class="carousel slide container mt-5"
         data-bs-ride="carousel"
@@ -111,17 +111,18 @@
         </div>
         <div class="carousel-inner rounded-3">
           <div class="carousel-item active">
-            <a href=""
+            <a href="evento.html"
               ><img
                 src="images/lollapaloza.png"
                 class="d-block w-100"
                 alt="..."
             /></a>
             <div class="carousel-caption d-none d-md-block">
-              <h5>Lollapaloza</h5>
-              <p>
-                Some representative placeholder content for the first slide.
-              </p>
+              <span class="bg-dark fs-4 p-2">Lollapaloza</span>
+              <br>
+              <span class="bg-dark fs-5 p-2">
+                25 Março . 27 Março
+              </span>
             </div>
           </div>
           <div class="carousel-item">
@@ -129,10 +130,11 @@
               ><img src="images/rockinrio.jpg" class="d-block w-100" alt="..."
             /></a>
             <div class="carousel-caption d-none d-md-block">
-              <h5>Rock in Rio</h5>
-              <p>
-                Some representative placeholder content for the second slide.
-              </p>
+              <span class="bg-dark fs-4 p-2">Rock in Rio</span>
+              <br>
+              <span class="bg-dark fs-5 p-2">
+                25 Março . 27 Março
+              </span>
             </div>
           </div>
           <div class="carousel-item">
@@ -143,10 +145,11 @@
                 alt="..."
             /></a>
             <div class="carousel-caption d-none d-md-block">
-              <h5>Tomorrowland</h5>
-              <p>
-                Some representative placeholder content for the third slide.
-              </p>
+              <span class="bg-dark fs-4 p-2">Tomorrowland</span>
+              <br>
+              <span class="bg-dark fs-5 p-2">
+                25 Março . 27 Março
+              </span>
             </div>
           </div>
         </div>
@@ -173,40 +176,43 @@
       <br />
       <br />
       <!--  -->
-      <h1 class="text-center">Eventos</h1>
+      <div class="container">
+      <h1 class="m-5">Eventos</h1>
+    </div>
       <div
-        class="container me-auto ms-auto text-center mt-5 bg-dark text-white p-4 rounded-3"
+        class="container mx-auto text-center mt-5 bg-dark text-white rounded-3"
       >
         <div class="row">
-          <div class="col-3">
-            <a href="">Festas e shows</a>
+          <div class="col-3 border-end p-5 border-3">
+            <a href=""><i class="fa-solid fa-champagne-glasses me-2 fs-4"></i><span class="fs-3 fw-bold">Festas e shows</span></a>
           </div>
-          <div class="col-3">
-            <a href="">Congressos e palestras</a>
+          <div class="col-3 border-end p-5 border-3">
+            <a href=""><i class="fa-solid fa-microphone me-2 fs-4"></i><span class="fs-3 fw-bold">Congressos e palestras</span></a>
           </div>
-          <div class="col-3">
-            <a href="">Peças de teatro e stand up comedy</a>
+          <div class="col-3 border-end p-5 border-3">
+            <a href=""><i class="fa-solid fa-sun me-2 fs-4"></i><span class="fs-3 fw-bold">Stand up comedy</span></a>
           </div>
-          <div class="col-3">
-            <a href="">Cursos e workshops</a>
+          <div class="col-3 p-5">
+            <a href=""><i class="fa-brands fa-discourse me-2 fs-4"></i><span class="fs-3 fw-bold">Cursos e workshops</span></a>
           </div>
         </div>
       </div>
       <div
-        class="container me-auto ms-auto text-center mt-2 bg-dark text-white p-4 rounded-3"
+        class="container me-auto ms-auto text-center mt-1 bg-dark text-white rounded-3"
       >
         <div class="row">
-          <div class="col-3">
-            <a href="">Eventos e atividades para crianças</a>
+          <div class="col-3 border-end p-5 border-3">
+            <a href=""><i class="fa-solid fa-child me-2 fs-4"></i><span class="fs-3 fw-bold">Eventos para crianças</span></a>
           </div>
-          <div class="col-3">
-            <a href="">Eventos gastronômicos</a>
+          <div class="col-3 border-end p-5 border-3">
+            <a href=""><i class="fa-solid fa-burger me-2 fs-4"></i><span class="fs-3 fw-bold">Eventos gastronômicos</span></a>
           </div>
-          <div class="col-3">
-            <a href="">Esportes</a>
+          <div class="col-3 border-end p-5 border-3">
+            <a href=""><i class="fa-solid fa-football me-2 fs-4"></i><span class="fs-3 fw-bold">Esportes</span></a>
+            
           </div>
-          <div class="col-3">
-            <a href="">Saúde e bem-estar</a>
+          <div class="col-3 p-5">
+            <a href=""><i class="fa-solid fa-heart me-2 fs-4"></i><span class="fs-3 fw-bold">Saúde e bem-estar</span></a>
           </div>
         </div>
       </div>
@@ -219,12 +225,12 @@
       <br>
       <br>
       <!-- 1 -->
-      <h1 class="m-5 fw-bold">Raves</h1>
+      <h1 class="m-5">Raves</h1>
       <div class="card mx-4 bg-dark text-light" style="width: 18rem;">
         <img src="images/soul_vision.jpg" class="card-img-top mt-3" alt="festival soul vision">
         <div class="card-body">
           <h5 class="card-title">SoulVision</h5>
-          <p class="card-text">25 Abril > 27 Abril<p>São José dos Campos - São Paulo,SP</p></p>
+          <p class="card-text">25 Abril . 27 Abril<p>São José dos Campos - São Paulo,SP</p></p>
           <p><a href="#" class="btn btn-light">Garanta já</a></p> 
         </div>
       </div>
@@ -232,7 +238,7 @@
         <img src="images/zuvuya.jpg" class="card-img-top mt-3" alt="festival Zuvuya">
         <div class="card-body">
           <h5 class="card-title">Zuvuya</h5>
-          <p class="card-text">8 Maio > 10 Maio.<p>Rio de Janeiro - Rio de Janeiro,RJ</p></p>
+          <p class="card-text">8 Maio . 10 Maio.<p>Rio de Janeiro - Rio de Janeiro,RJ</p></p>
           <p><a href="#" class="btn btn-light">Garanta já</a></p> 
         </div>
       </div>
@@ -240,7 +246,7 @@
         <img src="images/mundo_de_oz.jpg" class="card-img-top mt-3" alt="Festival mundo de oz">
         <div class="card-body">
           <h5 class="card-title">Mundo de Oz</h5>
-          <p class="card-text">25 Junho > 27 Junho<p>São Paulo - São Paulo,SP</p></p><br>
+          <p class="card-text">25 Junho . 27 Junho<p>São Paulo - São Paulo,SP</p></p><br>
           <p><a href="#" class="btn btn-light">Garanta já</a></p> 
         </div>
       </div>
@@ -248,41 +254,45 @@
         <img src="images/high_paradise.jpg" class="card-img-top mt-3" alt="Festival high paradise">
         <div class="card-body">
           <h5 class="card-title">High Paradise</h5>
-          <p class="card-text">20 Abril > 23 Abril<p>Taubaté - São Paulo,SP</p></p><br>
+          <p class="card-text">20 Abril . 23 Abril<p>Taubaté - São Paulo,SP</p></p><br>
          <p><a href="#" class="btn btn-light">Garanta já</a></p> 
         </div>
       </div>
     </div>
+  </div>
     <!--  -->
     <br>
-    <footer class="bg-dark text-white">
-      <div class="container-fluid">
-        <div class="row text-center">
-          <div class="col-6">
+    <br>
+    <footer class="bg-dark text-white mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 mt-3">
             <h5>Nos siga</h5>
-            <hr />
+            <hr class="border border-1"/>
+            <a href="">
             <img
               src="images/instagram.png"
               style="width: 30px"
               alt="instagram"
+              class="me-2"
             />
-            <span>Instagram</span>
-            <br />
-            <img src="images/facebook.png" style="width: 30px" alt="facebook" />
-            <span>Facebook</span>
-            <br />
-            <img src="images/youtube.png" style="width: 30px" alt="youtube" />
-            <span>Youtube</span>
+            <span class="fw-light">Instagram</span></a>
+            <br /> <a href="">
+            <img src="images/facebook.png" style="width: 30px" alt="facebook" class="my-2 me-2" />
+            <span class="fw-light">Facebook</span></a>
+            <br /> <a href="">
+            <img src="images/youtube.png" style="width: 30px" alt="youtube" class="me-2" />
+            <span class="fw-light">Youtube</span></a>
           </div>
-          <div class="col-6">
+          <div class="col-6 mt-3">
             <h5>Dúvidas</h5>
-            <hr />
-            <h5>Ajuda</h5>
-            <h5>Quem somos</h5>
-            <h5>Política de Privacidade</h5>
-            <h5>Contato</h5>
+            <hr class="border border-1"/>
+           <p class="fw-light"><a href="">Ajuda</a></p>
+        <p class="fw-light"><a href="">Quem somos</a></p>
+        <p class="fw-light"><a href="">Política de Privacidade</a></p>    
+        <p class="fw-light"><a href="">Contato</a></p>
           </div>
-          <div>
+          <div class="text-center mt-4">
             <img
               src="images/pix.png"
               class="m-2"
@@ -337,10 +347,10 @@
               style="width: 30px"
               alt="coleto"
             />
-            <p>by iur1Dev, diegorg_Dev Roleasy © 2022</p>
+            <p class="mt-3">by iur1Dev, diegorg_Dev <br> Roleasy © 2022</p>
           </div>
-        </div>
       </div>
+    </div>
     </footer>
   </body>
 </html>
