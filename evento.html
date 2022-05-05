@@ -48,20 +48,24 @@
           <img
             src="images/logo.png"
             alt="logo da role easy"
-            width="150"
+            width="200"
             class=""
           />
         </a>
-        <div class="text-end">
+        <div class="text-end mt-3">
           <a href=""><i class="fa-solid fa-bell fs-4"></i></a>
           <a href=""> <i class="fa-solid fa-envelope fs-4 mx-4"></i> </a>
-          <img
-            src="images/perfil_iur1.jpg"
-            class="rounded-circle"
-            style="width: 60px"
-            alt="foto perfil"
-          />
-          <a href=""><i class="fa-solid fa-sort-down text-white"></i></a>
+          <img src="images/perfil_iur1.jpg" class="rounded-circle" style="width: 70px;" alt="foto perfil">
+          <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample"><i class="fa-solid fa-sort-down text-white"></i></a>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+           <a class="fw-bold text-dark">Meus Roles</a> <br>
+         <a class="fw-bold text-dark">Perfil</a>   <br>
+           <a class="fw-bold text-dark">Configurações</a>  <br>
+           <a class="fw-bold text-dark">Sair</a>
+          </div>
+        </div>
         </div>
       </div>
     </nav>
@@ -71,82 +75,89 @@
         <img
           src="images/sarara.png"
           alt="sarara"
-          style="width: 1000px"
+          style="width: 1200px"
           class="mx-auto mt-5"
         />
       </div>
     </div>
-    <div class="text-center mt-5 bg-dark container text-white rounded">
-        <br>
-      <h2 class="fw-bold">Sarará</h2>
-      <i class="fa-solid fa-calendar-check"></i> <span>27.AGO.22</span> <br />
-      <i class="fa-solid fa-location-dot mt-2"></i> <span>Mineirão - BH</span>
-     </div>
-<div class="text-center mt-5 bg-dark container text-white rounded">
-      <h2 class="mt-4">Descrição</h2>
-      <p class="mt-4">
-        O Sarará mais esperado de todos os tempos acontece em 27 de agosto de
-        2022:
-      </p>
-      <p>
-        Um ano de entender,refletir,acolher,estabelecer limites,conectar.e
-        também de pular,cantar,libertar,suar,viver em catarse.de finalmente
-        poder celebrar a vida de perto e em conjunto!
-      </p>
-     </div>
-      <div class="text-center mt-5 bg-dark container text-white rounded">
-      <h2 class="mt-4">Ingressos</h2>
+    <div class="text-center mt-5 container rounded text-white">
+      <br />
+      <span class="fw-bold bg-dark rounded-3 fs-4 p-2">Sarará</span><br><br>
+      <span class="fs-4 bg-dark rounded-3 p-2"> <i class="fa-solid fa-calendar-check fs-4"></i>
+      27.AGO.22</span> <br /><br>
+      <span class="fs-4 bg-dark rounded-3 p-2"> <i class="fa-solid fa-location-dot mt-2 fs-4"></i>
+      Mineirão - BH</span>
+    </div>
+    <div class="text-center mt-5 container text-white rounded">
+      <img src="images/desc.gif" alt="descricao sarará" class="rounded-3" />
+    </div>
+    <div class="text-center mt-5 container rounded">
+      <span class="mt-4 fw-bold bg-dark fs-1 text-white p-2 rounded">Ingressos</span>
       <div
         class="container me-auto ms-auto text-center mt-1 bg-dark text-white rounded-3 mt-5"
       >
-        <div class="row border-top border-bottom border-3">
+        <div class="row border-3">
           <div class="col-3 border-end p-5 border-3">
-            
-              <p>Pista</p>
-              <p>R$ 80,00</p>
-              <p>Em até 12x sem juros</p>
-              <p>
-                <button class="btn btn-primary rounded-circle" onclick="remover()"><i class="fa-solid fa-angle-left"></i></button
-                ><span class="mx-2" id="elemento">0</span
-                ><button class="btn btn-primary rounded-circle" onclick="add()"><i class="fa-solid fa-angle-right"></i></button>
-              </p>
+            <p>Pista</p>
+            <p>R$ 80,00</p>
+            <p>Em até 12x sem juros</p>
+            <p>
+              <button
+                class="btn btn-primary rounded-circle"
+                onclick="remover()"
+              >
+                <i class="fa-solid fa-angle-left"></i></button
+              ><span class="mx-2" id="elemento">0</span
+              ><button class="btn btn-primary rounded-circle" onclick="add()">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </p>
           </div>
           <div class="col-3 border-end p-5 border-3">
-           <p>Camarote</p>
-                <p>R$ 150,00</p>
-                <p>Em até 12x sem juros</p>
-                <p>
-                  <button class="btn btn-primary rounded-circle"><i class="fa-solid fa-angle-left"></i></button
-                  ><span class="mx-2">0</span
-                  ><button class="btn btn-primary rounded-circle"><i class="fa-solid fa-angle-right"></i></button>
-                </p>
+            <p>Camarote</p>
+            <p>R$ 150,00</p>
+            <p>Em até 12x sem juros</p>
+            <p>
+              <button class="btn btn-primary rounded-circle">
+                <i class="fa-solid fa-angle-left"></i></button
+              ><span class="mx-2">0</span
+              ><button class="btn btn-primary rounded-circle">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </p>
           </div>
           <div class="col-3 border-end p-5 border-3">
-           <p>VIP</p>
-                <p>R$ 450,00</p>
-                <p>Em até 12x sem juros</p>
-                <p>
-                  <button class="btn btn-primary rounded-circle"><i class="fa-solid fa-angle-left"></i></button
-                  ><span class="mx-2">0</span
-                  ><button class="btn btn-primary rounded-circle"><i class="fa-solid fa-angle-right"></i></button>
-                </p>
+            <p>VIP</p>
+            <p>R$ 450,00</p>
+            <p>Em até 12x sem juros</p>
+            <p>
+              <button class="btn btn-primary rounded-circle">
+                <i class="fa-solid fa-angle-left"></i></button
+              ><span class="mx-2">0</span
+              ><button class="btn btn-primary rounded-circle">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </p>
           </div>
           <div class="col-3 p-5">
-           <p>Camarote vip</p>
-                <p>R$ 800,00</p>
-                <p>Em até 12x sem juros</p>
-                <p>
-                  <button class="btn btn-primary rounded-circle"><i class="fa-solid fa-angle-left"></i></button
-                  ><span class="mx-2">0</span
-                  ><button class="btn btn-primary rounded-circle"><i class="fa-solid fa-angle-right"></i></button>
-                </p>
+            <p>Camarote vip</p>
+            <p>R$ 800,00</p>
+            <p>Em até 12x sem juros</p>
+            <p>
+              <button class="btn btn-primary rounded-circle">
+                <i class="fa-solid fa-angle-left"></i></button
+              ><span class="mx-2">0</span
+              ><button class="btn btn-primary rounded-circle">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </p>
           </div>
-          
         </div>
-        <button class="btn btn-primary mx-auto my-3" style="width: 400px;">Comprar Ingressos</button>
       </div>
+      <button class="btn btn-dark mx-auto my-5" style="width: 300px">
+        Comprar Ingressos
+      </button>
     </div>
-
     <!--  -->
     <br />
     <br />
@@ -258,16 +269,22 @@
       </div>
     </footer>
     <script>
-        let elemento = document.querySelector("#elemento");
-        let contador = 0;
+      let elemento = document.querySelector("#elemento");
+      let contador = 0;
 
-     function add() {
-       elemento.innerHTML = contador ++
-     }
+      function add() {
+        contador++;
+        elemento.innerHTML = contador;
+      }
 
-     function remover() {
-       elemento.innerHTML = contador -- 
-     }
+      function remover() {
+        contador--;
+        elemento.innerHTML = contador;
+        if (contador < 0) {
+          contador++;
+          elemento.innerHTML = contador;
+        }
+      }
     </script>
   </body>
 </html>
