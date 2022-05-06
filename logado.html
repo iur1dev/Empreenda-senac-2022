@@ -53,9 +53,15 @@
           />
         </a>
         <div class="text-end mt-3">
-          <a href=""><i class="fa-solid fa-bell fs-4"></i></a>
+          <a href=""><i class="fa-solid fa-bell fs-4 position-relative"><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger notificacao">
+            99+
+            <span class="visually-hidden">unread messages</span>
+          </span></i></a>
           <a href=""
-            > <i class="fa-solid fa-envelope fs-4 mx-4"></i>
+            > <i class="fa-solid fa-envelope fs-4 mx-4 position-relative"><span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger notificacao mb-5">
+              99+
+              <span class="visually-hidden">unread messages</span>
+            </span></i>
             </a
           >
           <img src="images/perfil_iur1.jpg" class="rounded-circle" style="width: 70px;" alt="foto perfil">
@@ -63,10 +69,10 @@
         </p>
         <div class="collapse" id="collapseExample">
           <div class="card card-body">
-           <a class="fw-bold text-dark">Meus Roles</a> <br>
-         <a class="fw-bold text-dark">Perfil</a>   <br>
-           <a class="fw-bold text-dark">Configurações</a>  <br>
-           <a class="fw-bold text-dark">Sair</a>
+           <a class="fw-bold text-dark">Meus Roles <span class="fs-3">🎉</span></a> <br>
+         <a class="fw-bold text-dark">Perfil <span class="fs-3">👨</span></a>   <br>
+           <a class="fw-bold text-dark">Configurações <span class="fs-3">⚙️</span></a>  <br>
+           <a class="fw-bold text-dark">Sair <span class="fs-3">📴</span></a>
           </div>
         </div>
         </div>
@@ -75,10 +81,10 @@
     <!-- input -->
     <div class="container-fluid">
       <div class="row">
-        <span class="text-center fw-bold fs-4">
-          <i class="fa-solid fa-location-dot m-1 mt-4 text-dark text-center fs-4"></i> <a href="" class="text-dark">Coloque sua
-            localização</a></span
-        >
+        <span class="text-center fw-bold fs-4 mt-4">
+          <span class="fs-1">🌎</span><a href="" class="text-dark fw-bold fs-2">Coloque sua
+             localização</a></span
+         >
       </div>
       <form class="d-flex">
         <input
@@ -91,7 +97,6 @@
       </form>
       <!-- carosel -->
       <div
-        style="width: 1100px"
         id="carouselExampleCaptions"
         class="carousel slide container mt-5"
         data-bs-ride="carousel"
@@ -122,12 +127,13 @@
           <div class="carousel-item active">
             <a href="evento.html"
               ><img
-                src="images/lollapaloza.png"
-                class="d-block w-100"
+                src="images/sarara.png"
+                class="d-block"
                 alt="..."
+                style="width: 1300px;height: 650px;"
             /></a>
             <div class="carousel-caption d-none d-md-block">
-              <span class="bg-dark fs-4 p-2">Lollapaloza</span>
+              <span class="bg-dark fs-4 p-2">Sarará</span>
               <br>
               <span class="bg-dark fs-5 p-2">
                 25 Março . 27 Março
@@ -136,13 +142,13 @@
           </div>
           <div class="carousel-item">
             <a href=""
-              ><img src="images/rockinrio.jpg" class="d-block w-100" alt="..."
+              ><img src="images/rockinrio.png" class="d-block" style="width: 1300px;height: 650px;" alt="..."
             /></a>
             <div class="carousel-caption d-none d-md-block">
               <span class="bg-dark fs-4 p-2">Rock in Rio</span>
               <br>
               <span class="bg-dark fs-5 p-2">
-                25 Março . 27 Março
+                30 Novembro . 1 Dezembro
               </span>
             </div>
           </div>
@@ -150,14 +156,15 @@
             <a href=""
               ><img
                 src="images/tomorrowland.jpg"
-                class="d-block w-100"
+                class="d-block"
                 alt="..."
+                style="width: 1300px;height: 650px;"
             /></a>
             <div class="carousel-caption d-none d-md-block">
               <span class="bg-dark fs-4 p-2">Tomorrowland</span>
               <br>
               <span class="bg-dark fs-5 p-2">
-                25 Março . 27 Março
+                7 Agosto . 10 Agosto
               </span>
             </div>
           </div>
@@ -184,25 +191,25 @@
       <br />
       <br />
       <br />
-      <!--  -->
+      <!-- eventos -->
       <div class="container">
-      <h1 class="m-5 fw-bold">Eventos</h1>
+      <span class="m-5 fw-bold fs-1">Eventos</span>
     </div>
       <div
         class="container mx-auto text-center mt-5 bg-dark text-white rounded-3"
       >
         <div class="row">
           <div class="col-3 border-end p-5 border-3">
-            <a href=""><i class="fa-solid fa-champagne-glasses me-2 fs-4"></i><span class="fs-3 fw-bold">Festas e shows</span></a>
+            <a href=""><span class="fs-3 me-2">🥳</span><span class="fs-3 fw-bold">Festas e shows</span></a>
           </div>
           <div class="col-3 border-end p-5 border-3">
-            <a href=""><i class="fa-solid fa-microphone me-2 fs-4"></i><span class="fs-3 fw-bold">Congressos e palestras</span></a>
+            <a href=""><span class="fs-3 me-2">🎤</span><span class="fs-3 fw-bold">Congressos e palestras</span></a>
           </div>
           <div class="col-3 border-end p-5 border-3">
-            <a href=""><i class="fa-solid fa-sun me-2 fs-4"></i><span class="fs-3 fw-bold">Stand up comedy</span></a>
+            <a href=""><span class="fs-3 me-2">😂</span><span class="fs-3 fw-bold">Stand up comedy</span></a>
           </div>
           <div class="col-3 p-5">
-            <a href=""><i class="fa-brands fa-discourse me-2 fs-4"></i><span class="fs-3 fw-bold">Cursos e workshops</span></a>
+            <a href=""><span class="fs-3 me-2">🤔</span><span class="fs-3 fw-bold">Cursos e workshops</span></a>
           </div>
         </div>
       </div>
@@ -211,23 +218,23 @@
       >
         <div class="row">
           <div class="col-3 border-end p-5 border-3">
-            <a href=""><i class="fa-solid fa-child me-2 fs-4"></i><span class="fs-3 fw-bold">Eventos para crianças</span></a>
+            <a href=""><span class="fs-3 me-2">🚸</span><span class="fs-3 fw-bold">Eventos para crianças</span></a>
           </div>
           <div class="col-3 border-end p-5 border-3">
-            <a href=""><i class="fa-solid fa-burger me-2 fs-4"></i><span class="fs-3 fw-bold">Eventos gastronômicos</span></a>
+            <a href=""><span class="fs-3 me-2">🍔</span><span class="fs-3 fw-bold">Eventos gastronômicos</span></a>
           </div>
           <div class="col-3 border-end p-5 border-3">
-            <a href=""><i class="fa-solid fa-football me-2 fs-4"></i><span class="fs-3 fw-bold">Esportes</span></a>
+            <a href=""><span class="fs-3 me-2">🏀</span><span class="fs-3 fw-bold">Esportes</span></a>
             
           </div>
           <div class="col-3 p-5">
-            <a href=""><i class="fa-solid fa-heart me-2 fs-4"></i><span class="fs-3 fw-bold">Saúde e bem-estar</span></a>
+            <a href=""><span class="fs-3 me-2">🧡</span><span class="fs-3 fw-bold">Saúde e bem-estar</span></a>
           </div>
         </div>
       </div>
       <br />
     </div>
-    <!--  -->
+    <!-- raves -->
     <div class="container">
       <div class="row">
       <br>
@@ -236,19 +243,27 @@
       <!-- 1 -->
       <h1 class="m-5 fw-bold">Raves</h1>
       <div class="card mx-4 bg-dark text-light" style="width: 18rem;">
+        <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-secondary">
+          7 Amigos <br> comparecerão <br> a este evento
+          <span class="visually-hidden">unread messages</span>
+        </span>
         <img src="images/soul_vision.jpg" class="card-img-top mt-3" alt="festival soul vision">
         <div class="card-body">
           <h5 class="card-title">SoulVision</h5>
           <p class="card-text">25 Abril . 27 Abril<p>São José dos Campos - São Paulo,SP</p></p>
-          <p><a href="#" class="btn btn-light">Garanta já</a></p> 
+          <p><a href="#" class="btn btn-light fw-bold">Garanta já</a></p> 
         </div>
       </div>
       <div class="card bg-dark text-light" style="width: 18rem;">
+        <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-secondary">
+          2 Amigos <br> comparecerão <br> a este evento
+          <span class="visually-hidden">unread messages</span>
+        </span>
         <img src="images/zuvuya.jpg" class="card-img-top mt-3" alt="festival Zuvuya">
         <div class="card-body">
           <h5 class="card-title">Zuvuya</h5>
           <p class="card-text">8 Maio . 10 Maio.<p>Rio de Janeiro - Rio de Janeiro,RJ</p></p>
-          <p><a href="#" class="btn btn-light">Garanta já</a></p> 
+          <p><a href="#" class="btn btn-light fw-bold">Garanta já</a></p> 
         </div>
       </div>
       <div class="card mx-4 bg-dark text-light" style="width: 18rem;">
@@ -256,10 +271,14 @@
         <div class="card-body">
           <h5 class="card-title">Mundo de Oz</h5>
           <p class="card-text">25 Junho . 27 Junho<p>São Paulo - São Paulo,SP</p></p><br>
-          <p><a href="#" class="btn btn-light">Garanta já</a></p> 
+          <p><a href="#" class="btn btn-light fw-bold">Garanta já</a></p> 
         </div>
       </div>
       <div class="card bg-dark text-light" style="width: 18rem;">
+        <span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-secondary">
+          32 Amigos <br> comparecerão <br> a este evento
+          <span class="visually-hidden">unread messages</span>
+        </span>
         <img src="images/high_paradise.jpg" class="card-img-top mt-3" alt="Festival high paradise">
         <div class="card-body">
           <h5 class="card-title">High Paradise</h5>

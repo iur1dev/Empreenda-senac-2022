@@ -22,3 +22,7 @@ a:hover {
   text-decoration: underline;
   color: snow;
 }
+
+.notificacao {
+  font-size: 10px;
+}
