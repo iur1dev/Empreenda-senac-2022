@@ -69,7 +69,7 @@
         </p>
         <div class="collapse" id="collapseExample">
           <div class="card card-body">
-           <a class="fw-bold text-dark">Meus Roles <span class="fs-3">🎉</span></a> <br>
+           <a class="fw-bold text-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Meus Roles <span class="fs-3">🎉</span></a> <br>
          <a class="fw-bold text-dark">Perfil <span class="fs-3">👨</span></a>   <br>
            <a class="fw-bold text-dark">Configurações <span class="fs-3">⚙️</span></a>  <br>
            <a class="fw-bold text-dark">Sair <span class="fs-3">📴</span></a>
@@ -78,6 +78,33 @@
         </div>
       </div>
     </nav>
+
+    <!-- Modal -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title fw-bold" id="exampleModalLabel">Seus Roles</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div>
+          <h4 class="text-center fw-bold mt-3">Sarará</h4>  
+<img src="images/sarara.png" width="465px" height="150px" alt="sarara" class="mb-3">       
+        </div>
+        <hr>
+        <div>
+          <h5 class="text-center fw-bold">Eventos passados</h5>
+          <div class="text-center my-3">
+          <button class="btn btn-dark">Ver 327 Eventos</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
     <!-- input -->
     <div class="container-fluid">
       <div class="row">
