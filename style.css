@@ -25,3 +25,12 @@ a {
 a:li {
   color: black;
 }
+
+.alinha {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.espaco {
+  margin-left: 20px;
+}
